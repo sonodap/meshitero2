@@ -1,17 +1,17 @@
 <div class="continer">
-  <div class="row">
-
-    <h1>welcome to <strong>Meshitero</strong>!!</h1>
-    <p>
-      In <strong>Meshitero</strong>,</br>
-      SNS community that indiscriminately stimulates the appetite of sensible citizens.
-    </p>
-
-    <div class="row pr-5">
-      <%= link_to "Log in", new_user_session_path %>
-    </div>
+  <div class="col-md-6 mx-auto mt-5">
     <div class="row">
-      <%= link_to "Sign up", new_user_registration_path %>
+      <h1>welcome to <strong>Meshitero</strong>!!</h1>
+      <p>
+        In <strong>Meshitero</strong>,</br>
+        SNS community that indiscriminately stimulates the appetite of sensible citizens.
+      </p>
+      <div class="row pl-3 pr-5">
+        <%= link_to "Log in", new_user_session_path %>
+      </div>
+      <div class="row">
+        <%= link_to "Sign up", new_user_registration_path %>
+      </div>
     </div>
   </div>
 </div>
